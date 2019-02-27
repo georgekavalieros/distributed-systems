@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/latS"
+        android:hint="Latitude start"
+        android:text="40.55085246740427" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/latE"
+        android:layout_gravity="center_horizontal"
+        android:hint="Latitude end"
+        android:text="40.988331719265304" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lngS"
+        android:layout_gravity="center_horizontal"
+        android:hint="Longitude start "
+        android:text="-74.27476644515991" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lngE"
+        android:layout_gravity="center_horizontal"
+        android:hint="Longitude end"
+        android:text="-73.68382519820906" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeS"
+        android:layout_gravity="center_horizontal"
+        android:hint="Time start"
+        android:text="2000-04-03 18:13:21" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeE"
+        android:layout_gravity="center_horizontal"
+        android:hint="Time end"
+        android:text="2013-02-16 02:35:36" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect..."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/progress"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
